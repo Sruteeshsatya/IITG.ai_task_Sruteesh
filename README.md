@@ -28,12 +28,13 @@ Most important things used are rolling statistics and cyclic encoding(things lea
   * **Entire 2024 considered as test data**
   * **📈 Performance Summary**
        The models were evaluated using Mean Absolute Percentage Error (MAPE). Given the one-step-ahead nature of the forecasting, the accuracy was high
-    **Model**,**MAPE (%)**
-**Random Forest**,**2.23%**
-**XGBoost**,**2.26%**
-**Linear Regression**,**2.74%**
-**Lasso Regression**,**2.78%**
-**Linear SVR**,**2.88%**
+    |Model | MAPE (%)|
+    | :--- | :--- |
+    |**Random Forest** | **2.23%**|
+    |**XGBoost** | **2.26%**|
+    |**Linear Regression** | **2.74%**|
+    |**Lasso Regression** | **2.78%**|
+    |**Linear SVR** | **2.88%**|
 
 ## Feature Importance:
   * **Xgboost**: hour(encoded), demand, generation, solar, rollingstd(6h): XGBoost is prioritizing Seasonality and Cycles. By putting "Hour" at the very top, it is recognizing that electricity demand is primarily a function of the time of day. It also recognized that the solar power generation is gradually increasing.
