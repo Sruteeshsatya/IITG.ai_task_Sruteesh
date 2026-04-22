@@ -1,6 +1,6 @@
 # IITG.ai_task_Sruteesh
 # ⚡ Predicting Next Hour's electricity demand:
-Use of classical Machine Learning models(tree, linear and kernel based), to predict next hour's demand with proper feature engineering and prevention of data leakage from past.
+Use of classical Machine Learning models(tree, linear and kernel based), to predict next hour's demand with proper feature engineering and prevention of data leakage from future.
 Most important things used are rolling statistics and cyclic encoding(things learnt from the last section of resources)
 
 ## 🚀 Project Highlights
